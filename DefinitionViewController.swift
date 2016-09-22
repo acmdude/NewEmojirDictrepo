@@ -25,6 +25,7 @@ class DefinitionViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        // Make use of the power of "classes"
         
         emojiLabel.text = emoji.stringEmoji
         birthYearLabel.text = "Birth Year: \(emoji.birthYear)"
